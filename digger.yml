@@ -8,4 +8,8 @@ workflows:
     plan:
       steps:
       - run: echo "hello"
+      
+    apply:
+      steps:
+      - run: echo "hello world"
 
